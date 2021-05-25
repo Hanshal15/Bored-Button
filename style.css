@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: turquoise;
+}
+
+p {
+     
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 25px;
+        line-height: 24px;
+        margin: 0 0 24px;
+        text-align: center;
+        text-justify: inter-word;
+        
+}
+
+button {
+    width: 100px;
+    border-radius: 100%;
+    background-color: #fd0a0a;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    animation: blink 2s linear infinite; 
+    border-color: #000000;
+    border-width: 5px;
+}
+@keyframes blink{
+	0%{opacity: 0;}
+    25%{opacity: .25;}
+	50%{opacity: .5;}
+    75%{opacity: .75;}
+	100%{opacity: 1;}
+}
+
+div{
+    align-items: center;
+}
